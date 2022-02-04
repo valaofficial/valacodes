@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    min-height: 100vh;
+}
+
+#intro-section{
+    padding: 1em;
+}
+
+.intro{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro-text{
+    width: 40%;
+}
+
+.intro-text h3{
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-bottom: 2em;
+}
+
+.intro-text h2{
+    font-size: 1.9em;
+}
+
+.intro-text h4{
+    font-size: 1.6em;
+    margin-bottom: 2em;
+}
+
+.intro-text p{
+    font-size: 1.2em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+
+.intro-image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-image img{
+    width: 70%;
+}
+
+.intro-cta{
+    width: 10em;
+    height: 4em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #11232A;
+    background: none;
+    border: 3px solid #11232A;
+    border-radius: 0.5em;
+    transition: all 500ms ease-in-out;
+}
+
+.intro-cta:hover{
+    color: #ffffff;
+    background: #11232A;
+}
+
+.downBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.downBtn img{
+    width: 3em;
+    transition: all 500ms ease-in-out;
+}
+
+.downBtn img:hover{
+    width: 4em;
+    transform: scale(1.2);
+}
+
+
+
+/* About Section  */
+
+#about-section{
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 2em;
+}
+
+.about-text{
+    width: 70%;
+    padding: 2em;
+    margin-bottom: 5em;
+}
+
+.about-text p{
+    width: 80%;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+
+.about-img{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+
+
+/* My Skills Section  */
+
+#skills-section{
+    padding: 2em;
+}
+
+.skills-section-title h1{
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dev-skills, .design-skills{
+    width: 25em;
+    min-height: 30em;
+    box-shadow: 2px 2px 10px #0000003b;
+    padding: 2em;
+    transition: all 500ms ease-in-out;
+}
+
+.dev-skills:hover, .design-skills:hover{
+    color: #ffffff;
+    background: #11232A;
+    transform: scale(1.12);
+}
+
+.dev-skills h1, .design-skills h1{
+    font-size: 1.2em;
+}
+
+.dev-skills ul, .design-skills ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dev-skills li , .design-skills li{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dev-skills li img, .design-skills li img{
+    width: 3em;
+}
+
+.dev-skills li p, .design-skills li p{
+    width: 60%;
+    font-size: 1.2em;
+}
+
