@@ -82,12 +82,12 @@ section{
 
 .downBtn img{
     width: 3em;
-    transition: all 500ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .downBtn img:hover{
     width: 4em;
-    transform: scale(1.2);
+    transform: scale(0.75);
 }
 
 
@@ -95,6 +95,8 @@ section{
 /* About Section  */
 
 #about-section{
+    background-color: #11232A;
+    color: #ffffff;
     min-height: 50vh;
     display: flex;
     justify-content: space-around;
@@ -147,7 +149,6 @@ section{
 
 .dev-skills, .design-skills{
     width: 25em;
-    min-height: 30em;
     box-shadow: 2px 2px 10px #0000003b;
     padding: 2em;
     transition: all 500ms ease-in-out;
@@ -156,7 +157,7 @@ section{
 .dev-skills:hover, .design-skills:hover{
     color: #ffffff;
     background: #11232A;
-    transform: scale(1.12);
+    transform: scale(1.1);
 }
 
 .dev-skills h1, .design-skills h1{
@@ -186,3 +187,229 @@ section{
     font-size: 1.2em;
 }
 
+/* My Project Section  */
+#projects-section{
+    background-color: #11232A;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects-section h1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+}
+
+.project-card-div{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 2em;
+    justify-content: center;
+}
+
+.project-card{
+    width: 20rem;
+    background-color: #ffffff;
+    color: #11232A;
+    padding: 1rem;
+}
+
+.project-img img{
+    width: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project-title{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.project-desc{
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.project-stack{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.project-stack h5{
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+.project-link-div{
+    text-align: center;
+    width: 8rem;
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: #11232A;
+    text-decoration: none;
+}
+
+.project-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact-section{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-head{
+    font-size: 2rem;
+}
+
+.contact-msg{
+    width: 60%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-btn{
+    width: 10rem;
+    border: 1px solid #11232A;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+    margin-bottom: 2rem;
+}
+
+.contact-btn:hover{
+    transform: scale(1.1);
+}
+
+.contact-btn a{
+    font-size: 1.2rem;
+    color: #11232A;
+    font-weight: bolder;
+}
+
+.contact-online{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contact-social-div{
+    margin-bottom: 3rem;
+}
+
+.contact-social{
+    margin: 1rem;
+}
+
+.contact-social img{
+    width: 3rem;
+    transition: all 300ms ease-in-out;
+}
+
+.contact-social img:hover{
+    transform: scale(1.2);
+}
+
+.footer-txt{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-top: 2px solid #0000003b;
+    font-weight: bolder;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .intro{
+        flex-direction: column;
+    }
+    
+    .intro-text, .intro-image{
+        width: 100%;
+    }
+
+    .intro-text{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .intro-text p{
+        width: 100%;
+    }
+
+    .intro-image img{
+        width: 40%;
+    }
+
+    #about-section{
+        flex-direction: column;
+    }
+    
+    .about-text, .about-img{
+        width: 100%;
+    }
+
+    .about-text p{
+        font-size: 0.95rem;
+    }
+    
+    .about-img img{
+        width: 5rem;
+    }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    .dev-skills{
+        margin-bottom: 2rem;
+    }
+
+    .project-card-div{
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        gap: 2em;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 730px) {
+    .project-card-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .dev-skills, .design-skills{
+        width: 100%;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+
+    .project-stack{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact-msg, .footer-txt{
+        width: 100%;
+        font-size: 0.95rem;
+    }
+}
