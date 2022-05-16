@@ -34,9 +34,12 @@ function IntroSection(){
                 user experiences for you  
             </p>
 
+            
+          <Link spy={true} smooth={true} duration={300} to='contact-section'>
             <button className='intro-cta'>
               Let's Build Stuff
             </button>
+          </Link>
           </div>
 
           <div className='intro-image'>
