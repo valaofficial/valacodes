@@ -28,7 +28,7 @@ function IntroSection(){
           <div className='intro-text'>
             <h3>Hi There</h3>
             <h2>I’m Hyelavala</h2>
-            <h4>& I’m a Developer . Designer</h4>
+            <h4>& I’m a Developer / Designer</h4>
             <p>I’m a Nigerian based front-end developer
                 who specializes in building beautiful & interactive
                 user experiences for you  
@@ -75,7 +75,7 @@ function About(){
 
         <p>
         I am currently working on a platform that helps 
-        tutors can create classrooms online called  
+        tutors create classrooms online called  
         <b> Skillory</b>
         </p>
       </div>
