@@ -70,14 +70,14 @@ function About(){
         <p>
         Since then i’ve worked on a few personal & freelance
         projects as well as getting my first internship at a 
-        Software development firm in 2020
+        Software development firm in 2021
         </p>
 
-        <p>
+        {/* <p>
         I am currently working on a platform that helps 
         tutors create classrooms online called  
         <b> Skillory</b>
-        </p>
+        </p> */}
       </div>
       <div className='about-img'>
         <img src='/images/profile-pic.png' alt='Hyelavala'/>

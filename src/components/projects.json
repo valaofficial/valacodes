@@ -1,22 +1,28 @@
 {
     "projects": [
       {
-        "title": "Thom Idowu",
-        "desc":"A website for Dr. Thom Idowu from the Modibbo Adama University Yola",
-        "tech_stack": ["HTML", "CSS", "Javascript", "PHP"],
-        "link":"https://thomidowu.com"
-      },
-      {
         "title": "Nigerian Conservation Federation",
         "desc":"A website redesign for the Nigerian Conservation Federation done during my Internship",
         "tech_stack": ["ReactJS", "Tailwind CSS"],
         "link":"https://ncfnigeria.org"
       },
       {
-        "title": "I-Risk",
-        "desc":"A web application design for Southern Desk done during my Internship",
+        "title": "BoxbyBox",
+        "desc":"A website for a property management company undertaken during my internship",
         "tech_stack": ["ReactJS"],
-        "link":"https://i-risk.co"
+        "link":"https://boxbybox.ng"
+      },
+      {
+        "title": "Optisoft",
+        "desc":"Redesigning the website for Optisoft Technology",
+        "tech_stack": ["ReactJS"],
+        "link":"https://optisoft.ng"
+      },
+      {
+        "title": "TheTapDev",
+        "desc":"A simple website to showcase a developer community",
+        "tech_stack": ["ReactJS"],
+        "link":"https://optisoft.ng"
       }
     ]
   }
